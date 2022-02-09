@@ -1,0 +1,103 @@
+@import url('https://fonts.goggleapis.com/ss2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Bhaina+2:wght@400;500;700&family=Lora:wght@500&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    color: white;
+    background-color: black;
+    font-family:serif,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 20px; */
+}
+.heading1{
+    margin: 15px 50px;
+    font-size: 4em;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+.main{
+    width: 100vw;
+    padding: 0;
+    height: auto;
+    margin: auto;
+}
+.subtitle{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.image-div{
+     /* width: 100%; */
+     /* height: 50%; */
+    /* margin: 0px auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+}
+#image{
+    /* width: 70vw;
+    height: 90vh; */
+    width: 80%;
+    height: 80%;
+    margin-left: -150px;
+}
+
+#img-caption{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+   
+}
+#Tribute-heading{
+    text-align: center;
+    color: red;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white;
+}
+.tribute-info{
+    margin: 30px 40px;
+    font-size: 20px;
+    padding: 10px 384px;
+}
+ul li{
+    padding: 10px 0;
+}
+#link{
+    margin: 30px 30px;
+}
+a{
+    display: block;
+}
+.About {
+    padding: 20px;
+    margin: 10px 20px;
+    font-size: 1.2em;
+    line-height: 30px;
+    text-indent: 50px;
+
+
+}
+.para{
+    padding: 20px;
+    margin: 10px 20px;
+    font-size: 1.2em;
+    line-height: 30px;
+    text-indent: 50px;
+
+}
